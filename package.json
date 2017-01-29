@@ -1,0 +1,51 @@
+{
+  "name": "card-reader",
+  "version": "1.0.0",
+  "description": "Read credit card data",
+  "main": "main.coffee",
+  "scripts": {
+    "test": "coffee main.coffee"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "Q": "0.0.1",
+    "asar": "^0.12.3",
+    "electron-prebuilt": "^1.4.10",
+    "fs-jetpack": "^0.10.3",
+    "rcedit": "^0.7.0",
+    "bower": "^1.3.3",
+    "gulp": "^3.5.6",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-iconfont": "^5.0.1",
+    "gulp-iconfont-css": "^2.1.0",
+    "gulp-angular-templatecache": "^1.6.0",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-bower-files": "^0.2.7",
+    "gulp-coffee": "^2.2.0",
+    "gulp-concat": "^2.4.1",
+    "gulp-filter": "~1.0.2",
+    "gulp-flatten": "0.0.4",
+    "gulp-jade": "^0.9.0",
+    "gulp-less": "^1.3.6",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-loopback-sdk-angular": "^0.1.3",
+    "gulp-minify-css": "^0.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "gulp-sass": "^1.3.3",
+    "gulp-util": "^2.2.14",
+    "lodash": "^3.10.1",
+    "main-bower-files": "^2.4.0",
+    "shelljs": "^0.3.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "lodash": "^3.10.1",
+    "moment": "^2.17.0",
+    "request": "^2.79.0",
+    "youtube-mp3-downloader": "^0.4.4"
+  }
+}

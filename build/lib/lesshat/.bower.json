@@ -1,0 +1,14 @@
+{
+  "name": "lesshat",
+  "homepage": "https://github.com/csshat/lesshat",
+  "version": "4.1.0",
+  "_release": "4.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "4.1.0",
+    "commit": "8f724968daeebc1ba55d446c9aadcd470aaad59c"
+  },
+  "_source": "https://github.com/csshat/lesshat.git",
+  "_target": "^4.1.0",
+  "_originalSource": "lesshat"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "card-reader",
+  "description": "Read credit card data",
+  "main": "main.coffee",
+  "authors": [
+    "leon3s <lvernisse@student.42.fr>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "build/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionic": "^1.3.2",
+    "animate.less": "*",
+    "animate.css": "^3.5.2",
+    "lesshat": "^4.1.0"
+  }
+}

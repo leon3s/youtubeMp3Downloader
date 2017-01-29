@@ -1,0 +1,17 @@
+section.bar.header-bar
+	section.header-bar-logo
+		img(src="images/logo.png")
+	section.header-bar-search
+		input(
+			type="search"
+			placeholder="Rechercher sur youtube"
+			ng-model="query"
+			ng-keyup="search(query)"
+		)
+		section.search-logo
+			section.ion-ios-search-strong
+
+section.menu
+	p yolo
+
+ion-view(ui-view="menuContent")

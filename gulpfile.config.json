@@ -1,0 +1,13 @@
+{
+	"client": {
+		"name": "app",
+		"path": {
+			"src": "sources",
+			"build": "build"
+		}
+	},
+	"bower": {
+		"json": "bower.json",
+		"directory":"build/lib"
+	}
+}

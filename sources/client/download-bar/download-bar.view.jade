@@ -1,0 +1,8 @@
+section.download-bar
+	section.progress-bar(ng-if="isDownloading")
+		progress(max="100" value="{{ downloadProgress }}")
+	section.actions(ng-if="!isEnded && !isDownloading")
+		button(ng-click="download()") Download
+		button(ng-click="play()") Play
+	section(ng-if="isEnded")
+		code Downloaded

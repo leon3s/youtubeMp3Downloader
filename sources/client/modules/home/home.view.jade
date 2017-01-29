@@ -1,0 +1,15 @@
+ion-view#home.view
+	ion-content.has-footers
+		section.loader-spinner(ng-if="isSearching")
+			ion-spinner(icon="ripple")
+		ion-list.video-list(ng-if="videos.length")
+			section.video-item(
+				ng-repeat="video in videos"
+				ng-if="video.img"
+			)
+				section.video-header
+					p {{ video.title }}
+				section.video-content
+					img(ng-src="{{ video.img }}")
+				section.video-footer
+					download-bar(video="video")
